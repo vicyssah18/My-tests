@@ -82,3 +82,17 @@ ul li::before {
  ul li:hover::before { 
     opacity: 1;
  }
+
+@media screen and (max-width: 768px) {
+    #part-content { 
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #part-content { 
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
